@@ -3,30 +3,37 @@ package com.rrs.robot_dreams;
 public class Main {
     public static void main(String[] args) {
 
-        int a = 53;
-        int b = 36;
-
-        if (a > b) {
-            System.out.println(a + " > " + b);
-        } else {
-            System.out.println(b + " > " + a);
+        System.out.println("Числа від 1 до 10:");
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i + ". ");
         }
 
-        int d = 46;
-        int c = 32;
-
-        if (d < c) {
-            System.out.println(d + " < " + c);
-        } else {
-            System.out.println(c + " < " + d);
+        System.out.println("\n\nПарні числа від 1 до 100:");
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 != 0) {
+                continue;
+            }
+            System.out.print(i + ". ");
         }
 
-        int e = 52;
+        int factorial = 1;
+        for (int i = 1; i <= 7; i ++){
+            factorial *= i;
+        }
+        System.out.println("\n\nФакторіал числа 7: \n" + factorial + "\n");
 
-        if (e % 2 == 0) {
-            System.out.println("Число " + e + " парне");
-        } else {
-            System.out.println("Число " + e + " не парне");
+        System.out.println("Фібоначі до 100:");
+        int num0 = 1, num1 = 1, num2;
+        num2 = num0 + num1;
+        System.out.print(num0 + " " + num1 + " ");
+        while(num2 < 100) {
+            num2 = num0 + num1;
+            if (num2 > 100) {
+                break;
+            }
+            System.out.print(num2 + " ");
+            num0 = num1;
+            num1 = num2;
         }
 
     }
