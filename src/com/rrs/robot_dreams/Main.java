@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(cube(3));
-        print_star(5);
-        print_element("&", 10);
+        printStar(5);
+        printElement("&", 15);
 
     }
 
@@ -13,14 +13,14 @@ public class Main {
         return a * a * a;
     }
 
-    static void print_star(int n) {
+    static void printStar(int n) {
         for (int i = 0; i < n; i++) {
             System.out.print("*");
         }
         System.out.println();
     }
 
-    static void print_element(String element, int n) {
+    static void printElement(String element, int n) {
         for (int i = 0; i < n; i++) {
             System.out.print(element);
         }
