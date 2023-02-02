@@ -1,0 +1,18 @@
+Index: src/com/rrs/robot_dreams/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.rrs.robot_dreams;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n        int a = 6;\r\n        int b = 2;\r\n        System.out.println(a + \" + \" + b + \" = \" + (a + b));\r\n        System.out.println(a + \" - \" + b + \" = \" + (a - b));\r\n        System.out.println(a + \" / \" + b + \" = \" + (a / b));\r\n        System.out.println(a + \" * \" + b + \" = \" + (a * b));\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/rrs/robot_dreams/Main.java b/src/com/rrs/robot_dreams/Main.java
+--- a/src/com/rrs/robot_dreams/Main.java	
++++ b/src/com/rrs/robot_dreams/Main.java	
+@@ -8,6 +8,7 @@
+         System.out.println(a + " + " + b + " = " + (a + b));
+         System.out.println(a + " - " + b + " = " + (a - b));
+         System.out.println(a + " / " + b + " = " + (a / b));
++        System.out.println(a + " / " + b + " = " + (a / b));
+         System.out.println(a + " * " + b + " = " + (a * b));
+ 
+     }
