@@ -10,7 +10,7 @@ public class Main {
         minValue(arr);
         maxValue(arr);
         averageValue(arr);
-        System.out.println("Сума всіх елементів: \n" + sumAllValue(arr));
+        System.out.println("РЎСѓРјР° РІСЃС–С… РµР»РµРјРµРЅС‚С–РІ: \n" + sumAllValue(arr));
 
     }
 
@@ -22,7 +22,7 @@ public class Main {
     }
 
     static void printArray(int[] arr) {
-        System.out.println("Масив з 10 елементів:");
+        System.out.println("РњР°СЃРёРІ Р· 10 РµР»РµРјРµРЅС‚С–РІ:");
         System.out.print("{ ");
         for (int j : arr) {
             System.out.print(j + "; ");
@@ -31,7 +31,7 @@ public class Main {
     }
 
     static void minValue(int[] arr) {
-        System.out.println("\nМінімальне значення:");
+        System.out.println("\nРњС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ:");
         int min = arr[0];
         for (int j : arr) {
             if (j < min) {
@@ -42,7 +42,7 @@ public class Main {
     }
 
     static void maxValue(int[] arr) {
-        System.out.println("Максимальне значення:");
+        System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ:");
         int max = arr[0];
         for (int j : arr) {
             if (j > max) {
@@ -54,7 +54,7 @@ public class Main {
 
     static void averageValue(int[] arr) {
         float avr = (float) sumAllValue(arr) / arr.length;
-        System.out.println("Cереднє значення елементів:");
+        System.out.println("CРµСЂРµРґРЅС” Р·РЅР°С‡РµРЅРЅСЏ РµР»РµРјРµРЅС‚С–РІ:");
         System.out.println(avr);
     }
 
