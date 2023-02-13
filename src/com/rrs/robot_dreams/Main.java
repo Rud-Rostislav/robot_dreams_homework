@@ -3,18 +3,13 @@ package com.rrs.robot_dreams;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayNumbers array = new ArrayNumbers(10, 1, 100);
-        array.printArray();
-        array.sortArray();
-        array.sortReverseArray();
+        Car car = new Car("Mercedes - Benz", 2020, "Легковий автомобіль");
+        CarPassenger carPass = new CarPassenger("BMW", 2012);
+        CarTruck truck = new CarTruck("DAF", 2007);
 
-        Student john = new Student("John", "Donoway", 3, 18, "male", "Journalism" );
-        System.out.println("\n" + john.toString());
-        john.learning();
-
-        Teacher brad = new Teacher("Brad", "Welch", 32, "male", "Engineering" );
-        System.out.println("\n" + brad.toString());
-        brad.teaching();
+        System.out.println("Тип автомобіля класу Car: " + car.getType() + ".");
+        System.out.println("Тип автомобіля класу легкового автомобіля: " + carPass.getType() + ".");
+        System.out.println("Тип автомобіля класу вантажного автомобіля: " + truck.getType() + ".");
 
     }
 }
