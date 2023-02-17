@@ -2,21 +2,34 @@ package com.rrs.robot_dreams;
 
 public class Car {
 
-    private String brand;
-    private int year;
-    private String type;
+    static int count = 0;
+    private final String model;
+    private final String color;
+    private final int year;
 
-    public Car(String brand, int year) {
+    static {
+        System.out.println("Car class is loaded\n");
     }
 
-    public Car(String brand, int year, String type) {
-        this.brand = brand;
+    {
+        count++;
+        System.out.println("Car number " + count + " was created.\n");
+    }
+
+    public Car(String model, String color, int year) {
+        this.model = model;
+        this.color = color;
         this.year = year;
-        this.type = type;
+        System.out.println("Constructor was called.\n");
     }
 
-    public String getType() {
-        return type;
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                '}';
     }
 
 }
