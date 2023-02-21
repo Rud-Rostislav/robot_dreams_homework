@@ -16,7 +16,6 @@ public class Main {
         employeeService.printEmployee(employeeWithMaxSalary);
 
         System.out.println();
-        System.out.println();
 
         Employee employeeWithMinSalary = employeeService.findEmployeeMinSalary(employeeService.findAll());
         System.out.println("Min salary: ");
