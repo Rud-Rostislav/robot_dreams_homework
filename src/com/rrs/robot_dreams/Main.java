@@ -22,9 +22,8 @@ public class Main {
         employeeService.printEmployee(employeeWithMinSalary);
 
         System.out.println();
-        System.out.println();
 
-        System.out.println("Taxes: ");
+        System.out.println("Taxes: " + employeeService.calculateTaxes(employeeService.findAll()));
 
     }
 }
