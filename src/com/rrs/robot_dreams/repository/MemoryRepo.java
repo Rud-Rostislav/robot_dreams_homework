@@ -6,9 +6,7 @@ import java.util.Random;
 
 public class MemoryRepo {
 
-    public static final int SIZE = 10;
-
-    private Employee[] employees = new Employee[SIZE];
+    private Employee[] employees = new Employee[10];
 
     public MemoryRepo() {
         fillArrayEmployees();
