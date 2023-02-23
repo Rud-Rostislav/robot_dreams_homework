@@ -1,29 +1,13 @@
 package com.rrs.robot_dreams;
 
-import com.rrs.robot_dreams.domain.Employee;
-import com.rrs.robot_dreams.service.EmployeeService;
-
 public class Main {
     public static void main(String[] args) {
 
-        EmployeeService employeeService = new EmployeeService();
-        employeeService.printEmployees();
-
-        System.out.println();
-
-        Employee employeeWithMaxSalary = employeeService.findEmployeeMaxSalary(employeeService.findAll());
-        System.out.println("Max salary: ");
-        employeeService.printEmployee(employeeWithMaxSalary);
-
-        System.out.println();
-
-        Employee employeeWithMinSalary = employeeService.findEmployeeMinSalary(employeeService.findAll());
-        System.out.println("Min salary: ");
-        employeeService.printEmployee(employeeWithMinSalary);
-
-        System.out.println();
-
-        System.out.println("Taxes: " + employeeService.calculateTaxes(employeeService.findAll()));
+//        Human human = new Human(); // Human' is abstract; cannot be instantiated
+        Human student1 = new Student("John", "Smith", 23, "Male", "12345", "John Smith", "jsmith@gmail", "123-456-7890");
+        Human teacher = new Teacher("John", "Smith", 23, "Male", "12345", "John Smith", "jsmith@gmail", "123-456-7890");
+        student1.getInfo();
+        teacher.getInfo();
 
     }
 }
