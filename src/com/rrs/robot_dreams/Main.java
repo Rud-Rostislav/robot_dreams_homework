@@ -3,12 +3,11 @@ package com.rrs.robot_dreams;
 public class Main {
     public static void main(String[] args) {
 
-        int a = 6;
-        int b = 2;
-        System.out.println(a + " + " + b + " = " + (a + b));
-        System.out.println(a + " - " + b + " = " + (a - b));
-        System.out.println(a + " / " + b + " = " + (a / b));
-        System.out.println(a + " * " + b + " = " + (a * b));
+//        Human human = new Human(); // Human' is abstract; cannot be instantiated
+        Human student1 = new Student("John", "Smith", 23, "Male", "12345", "John Smith", "jsmith@gmail", "123-456-7890");
+        Human teacher = new Teacher("John", "Smith", 23, "Male", "12345", "John Smith", "jsmith@gmail", "123-456-7890");
+        student1.getInfo();
+        teacher.getInfo();
 
     }
 }
