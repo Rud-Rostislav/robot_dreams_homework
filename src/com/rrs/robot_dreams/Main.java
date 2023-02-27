@@ -3,12 +3,11 @@ package com.rrs.robot_dreams;
 public class Main {
     public static void main(String[] args) {
 
-        int a = 6;
-        int b = 2;
-        System.out.println(a + " + " + b + " = " + (a + b));
-        System.out.println(a + " - " + b + " = " + (a - b));
-        System.out.println(a + " / " + b + " = " + (a / b));
-        System.out.println(a + " * " + b + " = " + (a * b));
+        Driving driver = new Driver();
+        driver.drive();
+
+        Flying pilot = new Pilot();
+        pilot.fly();
 
     }
 }
