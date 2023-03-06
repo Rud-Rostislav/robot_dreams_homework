@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_15" />
+        <entry key="$PROJECT_DIR$" value="homework_445" />
       </map>
     </option>
   </component>
@@ -92,6 +92,7 @@
       <workItem from="1677579987412" duration="5000" />
       <workItem from="1678122632889" duration="684000" />
       <workItem from="1678125467905" duration="749000" />
+      <workItem from="1678126299619" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="master">
       <created>1677279452632</created>
@@ -114,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678126187058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework_17">
+      <created>1678126355015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678126355015</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homework_17">
+      <created>1678126542328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678126542328</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homework_17">
+      <created>1678126575912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678126575912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="master" />
     <MESSAGE value="homework_15" />
+    <MESSAGE value="homework_17.1" />
     <MESSAGE value="homework_17" />
     <option name="LAST_COMMIT_MESSAGE" value="homework_17" />
   </component>
