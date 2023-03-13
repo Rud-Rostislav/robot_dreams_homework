@@ -1,15 +1,27 @@
 package com.rrs.robot_dreams;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
+        ArrayList<Integer> number1 = new ArrayList<>();
+        LinkedList<Integer> number2 = new LinkedList<>();
+        for (int i = 0; i < 10; i++) {
+            number1.add(i);
+        }
+        for (int i = 0; i < 2000000; i++) {
+            number2.add(i);
+        }
 
-        System.out.println("Перший день тижня - " + DayOfWeek.getDayOfWeek(1) + ".");
-        System.out.println("Другий день тижня - " + DayOfWeek.getDayOfWeek(2) + ".");
-        System.out.println("Третій день тижня - " + DayOfWeek.getDayOfWeek(3) + ".");
-        System.out.println("Четвертий день тижня - " + DayOfWeek.getDayOfWeek(4) + ".");
-        System.out.println("П'ятий день тижня - " + DayOfWeek.getDayOfWeek(5) + ".");
-        System.out.println("Шестий день тижня - " + DayOfWeek.getDayOfWeek(6) + ".");
-        System.out.println("Сьомий день тижня - " + DayOfWeek.getDayOfWeek(7) + ".");
-
+        List<String> students = new ArrayList<>();
+        Student student = new Student("Ivan", 21);
+        Student student2 = new Student("Bob", 35);
+        Student student3 = new Student("Harry", 27);
+        students.add(student.toString());
+        students.add(student2.toString());
+        students.add(student3.toString());
+        System.out.println(students);
     }
 }
